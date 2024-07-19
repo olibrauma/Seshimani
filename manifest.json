@@ -1,19 +1,18 @@
 {
-    "manifest_version": 2,
-    "name": "Seshimani",
-    "version": "1.0",
-    "description": "何もしない拡張機能",
-    "permissions": [
-      "tabs"
-    ],
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": true
-    },
-    "browser_action": {
-      "default_icon": {
-        "48": "icons/icon.png"
-      }
+  "manifest_version": 2,
+  "name": "Seshimani",
+  "version": "1.0",
+  "description": "何もしない拡張機能",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/icon.png"
     }
   }
-  
+}
